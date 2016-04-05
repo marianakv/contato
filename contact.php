@@ -5,7 +5,7 @@ $field_telefone = $_POST['telefone'] = ( isset($_POST['telefone']) );
 $field_whatsapp = $_POST['whatsapp'] = ( isset($_POST['whatsapp']) ) ? true : null;
 
 
-$mail_to = 'marianakv@gmail.com';
+$mail_to = 'email@gmail.com';
 $subject = 'Teste' .$field_name;
 
 $body_message = 'Cadastro: '.$field_name."\n";
